@@ -16,3 +16,7 @@ try {
     # Restart the device
     Restart-Computer -Force
 }
+
+## no user login wait untill 10 min and restart the device
+Start-Sleep -Seconds 600
+Restart-Computer -Force
